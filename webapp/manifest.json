@@ -1,5 +1,5 @@
 {
-	"_version": "1.12.0",
+	"_version": "1.8.0",
 	"sap.app": {
 		"id": "opensap.movies",
 		"type": "application",
@@ -33,7 +33,6 @@
 	},
 
 	"sap.ui5": {
-		"flexEnabled": false,
 		"rootView": {
 			"viewName": "opensap.movies.view.App",
 			"type": "XML",
@@ -44,6 +43,7 @@
 			"minUI5Version": "1.60.1",
 			"libs": {
 				"sap.ui.layout": {},
+				"sap.ui.unified": {},
 				"sap.ui.core": {},
 				"sap.m": {}
 			}
@@ -58,6 +58,10 @@
 				"settings": {
 					"bundleName": "opensap.movies.i18n.i18n"
 				}
+			},
+			"movies": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "model/Movies.json"
 			}
 		},
 		"resources": {
