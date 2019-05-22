@@ -38,7 +38,7 @@
 				"special": "Meet the author of the book after the movie.",
 				"icon": "sap-icon://picture",
 				"seats": "60 seats available",
-				"technicalDetails":"EyeMax movie theater and equipment.",
+				"technicalDetails":"Imax movie theater and equipment.",
 				"info": "Munich",
 				"type": "Type01",
 				"pic": "images/CinemaMunich.png"
@@ -51,7 +51,7 @@
 				"special": "Standard show",
 				"icon": "sap-icon://picture",
 				"seats": "60 seats available",
-				"technicalDetails":"EyeMax movie theater and equipment.",
+				"technicalDetails":"Imax movie theater and equipment.",
 				"info": "Munich",
 				"type": "Type01",
 				"pic": "images/CinemaMunich.png"
@@ -109,7 +109,7 @@
 					"special": "Sneak Preview with 1 ice cream cone for free.",
 					"icon": "sap-icon://picture",
 					"seats": "60 seats available",
-					"technicalDetails":"EyeMax movie theater and equipment.",
+					"technicalDetails":"Imax movie theater and equipment.",
 					"info": "Munich",
 					"type": "Type01",
 					"pic": "images/CinemaMunich.png"
@@ -154,7 +154,7 @@
 					"special": "Rare Wars-of-Stars items available in the cine shop",
 					"icon": "sap-icon://picture",
 					"seats": "60 seats available",
-					"technicalDetails":"EyeMax movie theater and equipment.",
+					"technicalDetails":"Imax movie theater and equipment.",
 					"info": "Munich",
 					"type": "Type01",
 					"pic": "images/CinemaMunich.png"
@@ -199,7 +199,7 @@
 					"special": "Meet the author of the book after the movie.",
 					"icon": "sap-icon://picture",
 					"seats": "60 seats available",
-					"technicalDetails":"EyeMax movie theater and equipment.",
+					"technicalDetails":"Imax movie theater and equipment.",
 					"info": "Munich",
 					"type": "Type01",
 					"pic": "images/CinemaMunich.png"
@@ -212,7 +212,7 @@
 					"special": "Autograph session 1 hour before showtime: Tim Cruz is available just for you!",
 					"icon": "sap-icon://picture",
 					"seats": "60 seats available",
-					"technicalDetails":"EyeMax movie theater and equipment.",
+					"technicalDetails":"Imax movie theater and equipment.",
 					"info": "Munich",
 					"type": "Type01",
 					"pic": "images/CinemaMunich.png"

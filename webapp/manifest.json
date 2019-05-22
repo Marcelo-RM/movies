@@ -14,6 +14,7 @@
 			"version": "1.40.12"
 		}
 	},
+
 	"sap.ui": {
 		"technology": "UI5",
 		"icons": {
@@ -30,6 +31,7 @@
 			"phone": true
 		}
 	},
+
 	"sap.ui5": {
 		"rootView": {
 			"viewName": "opensap.movies.view.App",
@@ -63,11 +65,9 @@
 			}
 		},
 		"resources": {
-			"css": [
-				{
-					"uri": "css/style.css"
-				}
-			]
+			"css": [{
+				"uri": "css/style.css"
+			}]
 		},
 		"routing": {
 			"config": {
@@ -77,28 +77,34 @@
 				"viewPath": "opensap.movies.view",
 				"controlAggregation": "pages",
 				"controlId": "app",
-				"clearControlAggregation": false
-			},
-			"routes": [
-				{
-					"name": "RouteApp",
-					"pattern": "RouteApp",
-					"target": [
-						"TargetApp"
-					]
+				"clearControlAggregation": false,
+				"bypassed": {
+					"target" : "NotFound"
 				}
-			],
+			},
+			"routes": [{
+				"name": "Home",
+				"pattern": "",
+				"target": "Home"
+			}, {
+				"name": "Detail",
+				"pattern": "movies/{movieId}/appointments/{appointmentId}",
+				"titleTarget": "",
+				"greedy": false,
+				"target": "Detail"
+			}],
 			"targets": {
-				"TargetApp": {
-					"viewType": "XML",
-					"transition": "slide",
-					"clearControlAggregation": false,
-					"viewId": "App",
-					"viewName": "App"
+				"Home": {
+					"viewId": "home",
+					"viewName": "Home"
 				},
 				"Detail": {
-					"viewType": "XML",
+					"viewId": "detail",
 					"viewName": "Detail"
+				},
+				"NotFound": {
+					"viewId": "notFound",
+					"viewName": "NotFound"
 				}
 			}
 		}
